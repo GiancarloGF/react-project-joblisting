@@ -56,7 +56,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="app">
 
       <HeaderSearch removeTag={removeTag} clear={clear} tags={tags}/>
 
@@ -66,6 +66,7 @@ function App() {
           return <JobItem key={i.id} item={i} addTag={addTag} />
         })}
       </div>
+      <h5>by: Giancarlo Guerra 2021 <span className="heart">♥</span> </h5>
 
     </div>
   );
