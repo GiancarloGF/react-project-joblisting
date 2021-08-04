@@ -1,5 +1,4 @@
-// import photosnap from '../images/photosnap.svg';
-// import data from '../data';
+
 import JobItemTags from './JobItemTags'
 import JobItemInfo from './JobItemInfo'
 import JobItemLogo from './JobItemLogo'

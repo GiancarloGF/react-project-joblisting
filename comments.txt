@@ -1,0 +1,18 @@
+#Comments
+______________________________
+App.js
+------------------------------
+1️⃣ funcion App->useEfect->for
+- Se realizará un loop para filtrar el array de objetos (jobs) segun el array de tags que tengamos, siempre y cuando mi estado tags tenga elementos.
+- Cuando esto suceda, tengo que actualizar mi estado display para que renderice un nuevo array de objetos (jobs filtrados).
+- Esta validacion se realizara siempre que nuestro estado tags cambie, por eso le pasamos como segundo parametro al useEfect un array con el estado tags.
+
+2️⃣ let removeTag
+ -> let tagToClose
+- Capturamos el valor en string del correspondiente al elemento html close.
+
+-> setTags
+- Se actualiza el estado tags con un nuevo array de solo elementos anteriores menos el elemento borrado.
+
+-> setDisplay
+- Se actualiza tambien mi estado display con los valores iniciales para que luego sea filtrado nuevamente en el useState. De no hacer esto, mi estado display quedaria con los valores anteriores al borrado de tags.
