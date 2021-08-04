@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here](https://joblisting-app.herokuapp.com/)
+- Solution URL: [My solution on Frontend Mentor](https://www.frontendmentor.io/solutions/job-listing-app-react-html-css-heroku-j2s-tEVgO)
+- Live Site URL: [joblisting-app](https://joblisting-app.herokuapp.com/)
 
 ## My process
 
